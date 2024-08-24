@@ -1,5 +1,8 @@
 util.AddNetworkString("unt_signalTranslator")
 
+-- Some servers add additional argument, lets use it if we can ;)
+resource.AddWorkshop(3316119549, true)
+
 local cv_enabled	= CreateConVar("sv_signaltranslator_enabled",		1, FCVAR_ARCHIVE, "Enables signal translator.", 0, 1)
 local cv_maxLength	= CreateConVar("sv_signaltranslator_maxlen",		9, FCVAR_ARCHIVE, "Signal translator max message length.", 1, 24)
 local cv_adminOnly	= CreateConVar("sv_signaltranslator_adminonly",		1, FCVAR_ARCHIVE, "Restricts signal translator only for admins.", 0, 1)
