@@ -19,7 +19,7 @@ Signal Translator's sound volume. \
 **Default:** `0.6`
 
 `cl_signaltranslator_additive 0-1` \
-Enables Signal Translator on client. \
+Makes font to be additive. \
 **Default:** `1`
 
 # SERVER ConVars
