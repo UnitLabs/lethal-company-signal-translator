@@ -8,6 +8,7 @@
 		"*.gma",
 		".gitignore",
 		".vscode/*",
-		"*.bat"
+		"*.bat",
+		"*.vdf"
 	]
 }
