@@ -4,6 +4,7 @@
 	"tags":		[ "roleplay", "fun" ],
 	"ignore":	[
 		"*.md",
+		"addon_assets/*",
 		"*.gma",
 		".gitignore",
 		".vscode/*",
