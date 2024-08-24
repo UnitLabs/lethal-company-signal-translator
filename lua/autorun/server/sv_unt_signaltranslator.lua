@@ -42,7 +42,7 @@ concommand.Add("transmit", function(ply, _, _, str)
 	end
 
 	if not cv_enabled:GetBool() then
-		sendMessage(ply, "Signal Translator's concommand is disabled by the server (unt_signaltranslator_enabled = 0)")
+		sendMessage(ply, "Signal Translator's concommand is disabled by the server (sv_signaltranslator_enabled = 0)")
 
 		return
 	end
