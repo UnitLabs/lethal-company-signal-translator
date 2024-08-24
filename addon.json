@@ -1,0 +1,12 @@
+{
+	"title":	"Lethal Company Signal Translator",
+	"type":		"effects",
+	"tags":		[ "roleplay", "fun" ],
+	"ignore":	[
+		"*.md",
+		"*.gma",
+		".gitignore",
+		".vscode/*",
+		"*.bat"
+	]
+}
